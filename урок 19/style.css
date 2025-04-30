@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid black;
+}
+.div1, .div2, .div3{
+    width: 200px;
+    height: 200px;
+}
+.div1{
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+}
+.div2{
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    z-index: 2;
+}
+.div3{
+    background-color: gainsboro;
+    position: relative;
+    bottom: 110px;
+    z-index: -1;
+}

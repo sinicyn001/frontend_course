@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    border: 1px solid black;
+    width: 548px;
+    height: auto;
+    padding: 20px;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h1{
+    text-align: center;
+    margin-bottom: 30px ;
+    font-size: 56px;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
+}
+.text p{
+    text-align: justify;
+    font-size: 20px;
+}

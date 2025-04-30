@@ -1,0 +1,15 @@
+.the_moon{
+    text-align: center;
+    font-weight: 300px;
+   text-shadow: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p1{
+    text-align: center;
+}
+.div{
+    border:1px solid white;
+    width:  400px;
+    height: 400px;
+    margin-left:750px;
+}

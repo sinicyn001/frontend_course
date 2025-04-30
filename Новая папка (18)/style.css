@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px auto;
+}
+.grid-item{
+    border: 1px solid black;
+    background-color: lightgreen;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+     transition: 0.5s; /*Скорость анимации */
+}
+.grid-item:hover{
+    box-shadow: 15px 16px 57px 35px rgba(34, 60, 80, 0.66);
+}
+.item1:hover{
+    transform: translateX(100px);  /*Перемещение по линии x */
+}
+.item2:hover{
+    transform: translateY(100px);  /*Перемещение по линии x */
+}
+.item3:hover{
+    transform: translate(100px, 50px);  /*Перемещение по линии x */
+}
+.item4:hover{
+    transform: scaleX(1.5);  /*Увеличение по ширине */
+}
+.item5:hover{
+    transform: scaleY(1.5);  /*Увеличение по высоте */
+}
+.item6:hover{
+    transform: scale(1.5, 1.5);  /*Увеличение по линии и по высоте*/
+}
+.item7:hover{
+    transform: rotate(360deg);  /*Анимация кручения*/
+}
+.item8:hover{
+    transform: skewX(10deg);  /*Изменение линий по бокам, создание трапеции*/
+}
+.item9:hover{
+    transform: skewY(10deg);  /*Изменение линий сверху и снизу, создание трапеции*/
+}
+.item10:hover{
+    transform: skew(565464536000deg,55340deg);  /*Изменение линий по всем сторонам, создание трапеции*/
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background: linear-gradient(45deg, lime, orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    border-radius: 50%;
+    animation: circle-rotate 5s infinite;
+}
+.circle p{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle p::before{
+    content: '"';
+    color: red;
+    font-size: 48px;
+    margin-right: 10px;
+}
+.circle p::after{
+    content: '"';
+    color: rgb(0, 255, 55);
+    font-size: 48px;
+    margin-left: 10px;
+    position: relative;
+    top: 40px;
+}
+@keyframes circle-rotate {
+    0%{
+       transform: rotate(0);
+       border-radius: 50%;
+    }
+    50%{
+       transform: rotate(180deg);
+       border-radius: 50px;
+    }
+    100%{
+       transform: rotate(360deg);
+       border-radius: 50%;
+    }
+}

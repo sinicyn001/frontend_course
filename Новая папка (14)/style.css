@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    min-height: 16000px;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(142, 167, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 10;
+}
+.menu_logo{
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 35px;
+    float: left;
+    color: #ffffff;
+    font-weight: 700;
+}
+.menu_item{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 350px; float: left;
+}
+.menu_item a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu_button{
+    float: left;
+}
+.menu_button button{
+    border: none;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.menu_buttons button:hover{
+    background-color: rgb(56, 56, 172);
+    color: #ffffff;
+}
+.div1{
+    border: 1px solid rgb(197, 177, 177);
+    width: 100%;
+    height: 650px;
+    background-color: rgb(197, 177, 177);
+}
+.div2{
+    width: 700px;
+    height: 550px;
+    border: 1px solid rgb(173, 160, 160);
+    background-color: rgb(173, 160, 160);
+    position: relative;
+    left: 1170px;
+    top: -400px;
+}
+.div2 img{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    top: -50px;
+}
+.h2_1{
+    width: 100px;
+    height: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 30%;
+    top: 30px;
+    color: aqua;
+}
+.div3{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid rgb(170, 154, 154);
+    background-color: rgb(170, 154, 154);
+    position: relative;
+    top: 150px;
+}
+.p1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(173, 60, 60);
+    position: relative;
+    left: 200px;
+}
+.div4{
+    border: 1px solid rgb(173, 60, 60);
+    width: 150px;
+    height: 70px;
+    border-radius:  500px;
+    background-color: rgb(173, 60, 60);
+    position: relative;
+    left: 100px;
+}
+.div5{
+    width: 150px;
+    height: 70px;
+    border: 1px solid rgb(56, 56, 172);
+    border-radius: 500px;
+    background-color: rgb(56, 56, 172);
+    position: relative;
+    left: 700px;
+    top: -60px;
+}
+.div6{
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    background-color: rgb(153, 51, 51);
+    display: flex;
+    gap: 10px;
+}
+.div7{
+    width: 600px;
+    height: 700px;
+    background-color: rgb(196, 32, 32);
+    border: 1px solid rgb(196, 32, 32);
+}
+.div8{
+    width: 600px;
+    height: 700px;
+    background-color: rgb(196, 32, 32);
+    border: 1px solid rgb(196, 32, 32);
+}
+.div9{
+    width: 600px;
+    height: 700px;
+    background-color: rgb(196, 32, 32);
+    border: 1px solid rgb(196, 32, 32);
+}
+.h2_2{
+    color: aliceblue;
+    position: relative;
+    top: 450px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h2_3{
+    color: aliceblue;
+    position: relative;
+    top: 450px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h2_4{
+    color: aliceblue;
+    position: relative;
+    top: 450px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.div10{
+    background-color: azure;
+    width: 100%;
+    height: 500px;
+    border: 1px solid azure;
+}
+.h2_3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aquamarine;
+    position: relative;
+    top: -0px;
+}

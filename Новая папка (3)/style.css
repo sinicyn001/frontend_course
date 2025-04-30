@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .cart{
+    width: 1300px;
+    height: 750px;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid black;
+    }
+    .cart_img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+    }
+    .img_img{
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 15%;
+    }
+    content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .cart_title{
+    margin-bottom: 20px;
+    }
+    .cart_description{
+    margin-bottom: 30px;
+    }
+    .date{
+    border: 1px solid rgb(167, 103, 226);
+    border-radius: 15px;
+    background-color: rgb(167, 103, 226);
+    width: 90px;
+    height: 35px;
+    }
+    .carts{
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 310px
+    }
+    .title2{
+      margin-top: -700px;
+    }
+    .carts2{
+       border: 1px solid black;
+       width: 310px;
+       border-radius: 15px;
+       margin-top: 20px;
+
+    }
+    .carts3{
+        border: 1px solid black;
+        width: 310px;
+        border-radius: 15px;
+       margin-top:20px;
+ 
+     }

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px auto;
+}
+.grid-item{
+    border: 1px solid black;
+    background-color: lightgreen;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+     transition: 0.5s; /*Скорость анимации */
+}
+.grid-item:hover{
+    box-shadow: 15px 16px 57px 35px rgba(34, 60, 80, 0.66);
+}
+.item6:hover{
+    transform: translateX(100px);  
+}
+.item9:hover{
+    transform: translateY(100px);  
+}
+.item7:hover{
+    transform: translate(100px, 50px);  
+}
+.item10:hover{
+    transform: scaleX(1.5);  
+}
+.item2:hover{
+    transform: scaleY(1.5);  
+}
+.item1:hover{
+    transform: scale(1.5, 1.5);  
+}
+.item8:hover{
+    transform: rotate(360deg);  
+}
+.item3:hover{
+    transform: skewX(10deg);  
+}
+.item5:hover{
+    transform: skewY(10deg);  
+}
+.item4:hover{
+    transform: skew(56deg,50deg); 
+}
+.item11:hover{
+    transform: scaleX(-1.5);  
+}
+.item12:hover{
+    transform: scale(-1.5, -1.5);  
+}
