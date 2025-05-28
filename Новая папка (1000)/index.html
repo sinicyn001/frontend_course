@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Простая программа JavaScript</title>
+</head>
+<body>
+    <h1>Приветственная программа</h1>
+    
+    <script>
+        // Запрашиваем имя пользователя
+        let userName = prompt("Пожалуйста, введите ваше имя:");
+        
+        // Проверяем, было ли введено имя
+        if (userName) {
+            // Выводим приветствие
+            alert(`Привет, ${userName}! Добро пожаловать в мир JavaScript!`);
+            document.write(`<p>Привет, <strong>${userName}</strong>! Сегодня прекрасный день для изучения JavaScript!</p>`);
+        } else {
+            // Если имя не введено
+            alert("Вы не ввели имя. Попробуйте еще раз!");
+            document.write("<p>Привет, гость! Надеюсь, у вас хороший день!</p>");
+        }
+    </script>
+</body>
+</html>
